@@ -1,0 +1,246 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+}
+
+body{background: rgba(43, 138, 255, 0.40);
+    padding: auto;
+    margin: auto;
+}
+
+.top{
+    position: relative;
+}
+.top img{
+    width:100%;
+    display: block;
+    position: relative;
+
+}
+
+.top p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    padding:0;
+    margin:0;
+    color: #fff;
+    font-size: 90px;
+}
+
+a {text-decoration: none;
+    color: #000;
+}
+
+a:hover{-webkit-transform: scale(1.1);
+    transform: scale(1.1);}
+
+ul{ height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    padding-left:0;
+    width: 100%;
+}
+
+
+.page{
+    list-style:none;
+    display: flex;
+height: 100px;
+padding: 26px 0;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background: #2B8AFF;
+position: relative;
+bottom: 35px;
+    font-family: "Almendra SC", serif;
+    font-weight: 400;
+    font-style: normal;
+width: 25%;
+text-align: center;
+}
+
+
+td{font-size: 30px;
+padding-left: 300px;
+}
+
+td img{border-radius: 30px;}
+
+
+.main{padding-left: 120px;
+    display: inline-flex;
+align-items: center;
+gap: 60px;
+position: relative;
+margin-bottom: 100px;
+}
+
+.main p{position: absolute;
+    top:50%;
+    left:60%;
+    transform: translate(-50%,-50%);
+    padding:0;
+    margin:0;
+    color: #fff;
+    font-size: 48px;
+text-align: center;
+font-weight: bolder;
+white-space: nowrap}
+
+.main img:hover{ color: #fff;
+    opacity: 0.8;}
+
+.button{
+border-radius: 50px;
+background: #002A7F;
+display: flex;
+color: #fff;
+font-size: 40px;
+width: 414px;
+height: 90px;
+padding: 20px 80px;
+justify-content: center;
+align-items: center;
+margin: auto;
+text-decoration: none;
+}
+
+.button:hover {
+    transform: translateY(5px);
+  }
+  /***********************************************/
+
+.pro{border-radius: 50px;
+    background: #FFF;
+    display: flex;
+    width: 602px;
+    height: 500px;
+    padding: 100px 40px;
+    align-items: center;
+    flex-shrink: 0;
+    position: relative;
+    right: 35px;
+}
+
+.pro_i{
+    position: relative;
+    left: 170px;
+}
+
+.love{padding-left:0;
+        display: flex;
+        width: 1300px;
+        margin: auto;
+        padding: auto;
+        margin-left: 170px;
+       padding-left: 100px;
+      }
+
+ .like{
+    background: #FFF;
+    text-align: center;
+    margin: 50px;
+    list-style:none;
+    height: 550px;
+    }
+
+.pro_im{
+    position: relative;
+    bottom: 90px;
+}
+
+.t{color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+bottom: 15px;}
+
+.te{color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: relative;
+bottom: 170px;}
+
+.prof{width: 1300px;
+    height: 316px;
+    border-radius: 50px;
+    align-items: center;
+    background: #FFF;
+margin-left: 350px;
+position: relative;
+right: 130px;}
+
+.pro_h{
+    color: #000;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: relative;
+left: 35px;
+bottom: 30px;
+}
+
+.pro_p{
+    color: #000;
+font-size: 27px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: relative;
+bottom: 100px;
+left: 65px;
+}
+
+
+.prof p{margin: 30px;
+margin-top: auto;}
+
+.ken{text-align: center;
+    position: relative;
+font-size: 27px;
+right: 40px;
+bottom: 70px;
+}
+
+  /***********************************************/
+
+  h1{ font-size: 30px;
+    padding: 4px 0 4px 16px;
+    border-left: 15px solid #212121;
+    margin-bottom: 20px;
+    color: #212121;
+position: relative;
+left: 120px;}
+
+  /***********************************************/
+
+  .cont{width: 950px;
+    height: 600px;
+    background: #2B8AFF;
+align-items: center;
+text-align: center;
+margin-left: 350px;}
+
+.cm{font-size: 40px;
+text-align: center;
+align-items: center;
+margin-top: 100px;}
+
+.ml{position: relative;
+right: 33px;}
+
+.oto{position: relative;
+right: 51px;}
